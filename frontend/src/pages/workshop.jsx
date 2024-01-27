@@ -33,6 +33,7 @@ import {
 import banner from '../assets/images/banner.png';
 import Navbar from '../components/nav';
 import Footer from '../components/footer';
+import Comingsoon from '../components/comingsoon';
 
 const workshop1 = [
   'Getting exposed to real-world challenges is a primary need for attaining the practical approach. One of the best tools for getting exposed to many practical challenges of the construction industry is Building Information Modeling (BIM).',
@@ -78,7 +79,7 @@ function Workshop() {
         back
       ></Flex>
 
-<Center as="section" w="100%">
+{/* <Center as="section" w="100%">
           <Stack
             w="60%"
             rounded="md"
@@ -102,21 +103,43 @@ function Workshop() {
             <b>Registration for workshops will give you free entry to technical events.</b>
             </Text>
           </Stack>
-        </Center>
+        </Center> */}
+
+
+        
+      <Center>
+        <Comingsoon />
+      </Center>
+
+
+
+
 
       <SimpleGrid
         columns={{ base: 1, md: 2, lg: 4 }}
         spacing={{ base: 10, md: 15 }}
         p={50}
       >
-        <WorkshopCard
+
+      {/* <Comingsoon /> */}
+
+
+
+
+
+        {/* <WorkshopCard
           title="BIM(Building Information Modelling)"
           description="Getting exposed to real-world challenges is a primary need for attaining the practical approach. One of the best tools for getting exposed to many practical challenges of the construction industry is Building Information Modeling (BIM)."
           tag="4th Feb 10 AM to 12:30 PM"
           rules={workshop1}
           url="https://i.imgur.com/LEo1glx.png"
           registerLink="https://forms.gle/A2WxoECbn1SKCTuq8"
-        />
+        /> */}
+
+
+
+
+
 
         {/* <WorkshopCard
           title="Fundamentals of Fibre Reinforced and Textile Reinforced Concrete"
@@ -127,14 +150,21 @@ function Workshop() {
           registerLink="https://forms.gle/A2WxoECbn1SKCTuq8"
         /> */}
 
-        <WorkshopCard
+
+
+
+
+        {/* <WorkshopCard
           title="‘Overview Of Bridge Engineering and Technology"
           description="Bridges constitute a significant portion of the national economy of a country and serve as a foundation for infrastructure development. As a civil engineer, it is essential to know about the basics of bridge engineering and technology. MOMENTS ’23 presents a workshop session on ‘Overview Of Bridge Engineering and Technology’, where budding engineers will gain deep understanding of modern bridge technology."
           tag="3rd Feb 2 PM to 4:30 PM"
           rules={workshop3}
           url="https://i.imgur.com/jY9L3hI.png"
           registerLink="https://forms.gle/cuBUYzh7vkC2B1YFA"
-        />
+        /> */}
+
+
+
 
         {/* <WorkshopCard
           title="ETABS workshop"

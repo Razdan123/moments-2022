@@ -67,17 +67,213 @@ function Events() {
         spacing={{ base: 10, md: 15 }}
         p={50}
       >
-        <Event1 />
+        <Event0 />
+        {/* <Event1 />
         <Event2 />
         <Event3 />
         <Event4 />
-        <Event5 />
+        <Event5 /> */}
+        
       </SimpleGrid>
 
       <Footer />
     </Box>
   );
 }
+
+
+
+
+
+
+
+
+
+function Event0() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  return (
+    <>
+      <Box
+        maxW="sm"
+        borderWidth="2px"
+        borderRadius="lg"
+        overflow="hidden"
+        p={15}
+        pb={20}
+        position="relative"
+      >
+        <Badge borderRadius="full" px="5" py="1">
+          event{' '}
+        </Badge>
+        <Text as="h3" my={5} fontWeight="bold" fontSize="2xl" color={'accent'}>
+          {' '}
+          CAMPUS AMBASSADOR PROGRAM{' '}
+        </Text>{' '}
+        <Text>
+          {' '}
+          Welcome to our Campus Ambassador Program, where leadership meets innovation, and tomorrow's pioneers are nurtured today. This program
+          is designed to empower students with the skills, resources, and opportunities needed to become influential voices within their campus communities and beyond.{' '}
+        </Text>{' '}
+        <Center>
+          <Button
+            mt={25}
+            size="md"
+            height="40px"
+            width="100px"
+            border="1px"
+            borderColor="#C0C1D1"
+            borderRadius={4}
+            zIndex={1}
+            _hover={{
+              textDecoration: 'none',
+              bg: useColorModeValue('accent', 'accent'),
+              color: 'white',
+            }}
+            onClick={onOpen}
+            style={{ position: 'absolute', bottom: '20px' }}
+          >
+            View more
+          </Button>
+        </Center>
+        <Modal
+          scrollBehavior="inside"
+          isOpen={isOpen}
+          onClose={onClose}
+          isCentered
+          motionPreset="slideInBottom"
+          size="xl"
+        >
+          <ModalOverlay />
+          <ModalContent>
+            <ModalHeader color={'accent'}> BUILD IT </ModalHeader>{' '}
+            <ModalCloseButton />
+            <ModalBody>
+              <Center>
+                <a href="https://i.imgur.com/TlULIHZ.png" target="_blank">
+                  <Image
+                    height="400"
+                    src="https://i.imgur.com/TlULIHZl.png"
+                    alt="BUILD IT"
+                  />
+                </a>
+              </Center>
+              <Text as="h3" my={5} fontWeight="bold" fontSize="xl">
+                {' '}
+                Event description{' '}
+              </Text>{' '}
+              <Text as="p" my={5}>
+                {' '}
+                Designing a building from scratch takes a lot of patience.If you
+                are someone who has an eye for perfection, the event "BUILD IT"
+                is for you.{' '}
+                <br />
+              <br />
+              Go check out the rule book for more information.
+              </Text>
+              {/* <
+            Text as = 'h3'
+            my = { 5 }
+            fontWeight = 'bold'
+            fontSize = 'xl' > Format < /Text> <
+            Text as = 'p'
+            my = { 5 } > Round 1: Online quiz consisting of objective questions(comprising of both Structural and Non - structural) < /Text> <
+            Text as = 'p'
+            my = { 5 } > Round 2: six teams who have secured the highest marks in Level 1 will qualify
+            for Level 2 and they will acquire a chance to exhibit their proficiency in the field of civil engineering through six rounds of online quizzing.After 6 rounds of strenuous quizzing, teams retaining the top three positions will be awarded. < /Text>
+         */}
+              {/* <
+            Text as = 'h3'
+            my = { 5 }
+            fontWeight = 'bold'
+            fontSize = 'xl' > Platform < /Text> <
+            Text as = 'p'
+            my = { 5 } > Round 1– HackerEarth < /Text> <
+            Text as = 'p'
+            my = { 5 } > Round 2– MS Teams < /Text> */}
+              {/* <
+            Text as = 'h3'
+            my = { 5 }
+            fontWeight = 'bold'
+            fontSize = 'xl' > Rules < /Text> <
+            UnorderedList >
+                <
+                ListItem >
+                Each team can have maximum of 2 members. <
+                /ListItem>
+
+            <
+            ListItem >
+                Calculators will be allowed
+            for first round only
+                <
+                /ListItem>
+
+            <
+            /UnorderedList>
+
+            <
+            Text as = 'h3'
+            my = { 5 }
+            fontWeight = 'bold'
+            fontSize = 'xl' > Judging criteria < /Text> <
+            UnorderedList >
+                <
+                ListItem >
+                The teams with maximum score will be qualified
+            for the 2 nd round.(6 teams). <
+                /ListItem>
+
+            <
+            ListItem >
+                In
+            case of tie the first - round scores will also be taken into account. <
+            /ListItem>
+
+            <
+            /UnorderedList> */}
+            </ModalBody>
+            {/* <ModalFooter> */}{' '}
+            <Center>
+              <Button
+                colorScheme="blue"
+                m={3}
+                onClick={() => {
+                  window.location.assign('https://forms.gle/62BBDXtCck7RFppQ9');
+                }}
+              >
+                Register Now{' '}
+              </Button>{' '}
+            </Center>
+            {/* </ModalFooter> */}{' '}
+          </ModalContent>{' '}
+        </Modal>
+      </Box>
+    </>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function Event1() {
   const { isOpen, onOpen, onClose } = useDisclosure();

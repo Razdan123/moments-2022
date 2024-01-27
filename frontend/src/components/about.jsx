@@ -117,7 +117,7 @@ export default function About() {
               <Box mb={{ base: 8, md: 20 }}>
                 <HStack>
                   <Text color={'accent'} fontSize={{ base: '3xl', md: '5xl' }}>
-                    Moments ‘23{' '}
+                    Moments ‘24{' '}
                   </Text>
                 </HStack>
                 {/* <Text fontSize={{ base: '3xl', md: '5xl' }}>is</Text>
