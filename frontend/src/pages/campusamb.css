@@ -10,3 +10,26 @@ table.center {
     margin-left: auto;
     margin-right: auto;
 }
+/* .container {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  .black-sentence {
+    /* Style the black sentence */
+    color: black;
+    font-size: 2rem;
+    /* Ensure there is no margin below the black sentence */
+    margin-bottom: 0;
+    display: inline;
+  }
+  
+  .blue-sentence {
+    /* Style the blue sentence */
+    color: #0d6afe;
+    font-size: 2rem;
+    /* Ensure there is no margin above the blue sentence */
+    margin-top: 0;
+    display: inline;
+  }
+  

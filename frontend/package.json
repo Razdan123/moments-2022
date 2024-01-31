@@ -5,6 +5,7 @@
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
     "@chakra-ui/react": "^1.7.4",
+    "@chakra-ui/system": "^2.6.2",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@fontsource/plus-jakarta-sans": "^4.5.0",
@@ -12,8 +13,8 @@
     "@testing-library/react": "^10.4.9",
     "@testing-library/user-event": "^12.8.3",
     "framer-motion": "^4.1.17",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^3.11.0",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
