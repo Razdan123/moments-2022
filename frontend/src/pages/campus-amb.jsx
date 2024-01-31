@@ -44,7 +44,7 @@ function CAmb() {
   /> */}
         </Center>
       </Flex>
-      <Box mx="auto" width="85%">
+      <Box mx="auto" width="100%">
         <Center as="section" w="100%">
           <Stack
             w="100%"
@@ -298,11 +298,11 @@ function CAmb() {
                 TIERS
               </Text>
             </Center>
-            <Text color={'gray.600'} id="center">
+            <Text color={'gray.600'} id="tab-center-1">
               Hey, top performing Campus Ambassadors, get ready for a sneak peek
               into the exciting offering we have lined up for you based on your
               score:
-              <table class="center">
+              <table class="tab-center">
                 <tr>
                   <th>TIER 1</th>
                   <th>TIER 2</th>
@@ -359,6 +359,143 @@ function CAmb() {
                   <td></td>
                   <td></td>
                 </tr>
+              </table>
+              *Terms and Conditions Apply
+              <br />
+              <br />
+              <b>
+                {' '}
+                Not just these, there are many more incentives waiting for our
+                campus ambassadors. Join us to know more!
+              </b>{' '}
+            </Text>
+
+            <Text color={'gray.600'} id="tab-center-2">
+              Hey, top performing Campus Ambassadors, get ready for a sneak peek
+              into the exciting offering we have lined up for you based on your
+              score:
+              <table class="tab-center-1">
+                <tr>
+                  <th>TIER 1</th>
+                  
+                </tr>
+                <tr>
+                  <td>Points - Above 1300</td>
+                  
+                </tr>
+                <tr>
+                  <td>Certificate of Recognition</td>
+                 
+                </tr>
+                <tr>
+                  <td>Letter of appreciation </td>
+                 
+                </tr>
+                <tr>
+                  <td>Goodies </td>
+                 
+                </tr>
+                <tr>
+                  <td>Two free workshops and One event </td>
+                 
+                </tr>
+                <tr>
+                  <td>Free Accommodation </td>
+                 
+                </tr>
+                <tr>
+                  <td>
+                    Mention in the Symposium Newsletter/Website and on Stage as
+                    well{' '}
+                  </td>
+                  
+                </tr>
+                <tr>
+                  <td>Summer Internship opportunity at NITT </td>
+              
+                </tr>
+                <tr>
+                  <td>Interact with our professors </td>
+                 
+                </tr>
+              </table>
+
+
+
+
+
+
+              <table class="tab-center-2">
+                <tr>
+                  <th>TIER 2</th>
+                  
+                </tr>
+                <tr>
+                  <td>Points - 1300 to 1000</td>
+                  
+                </tr>
+                <tr>
+                  <td>Certificate of Recognition</td>
+                 
+                </tr>
+                <tr>
+                  <td>Letter of appreciation </td>
+                 
+                </tr>
+                <tr>
+                  <td>Goodies </td>
+                 
+                </tr>
+                <tr>
+                  <td>One free workshop </td>
+                 
+                </tr>
+                <tr>
+                  <td>Accommodation concession* </td>
+                 
+                </tr>
+                <tr>
+                  
+                  <td>
+                    Mention in the Symposium Newsletter/Website and on Stage as
+                    well{' '}
+                  </td>
+                 
+                </tr>
+               
+              
+              </table>
+
+              <table class="tab-center-3">
+                <tr>
+                  
+                  <th>TIER 3</th>
+                </tr>
+                <tr>
+                  
+                  <td>Points - 600 to 1000</td>
+                </tr>
+                <tr>
+                  
+                  <td>Certificate of Recognition</td>
+                </tr>
+                <tr>
+                 
+                  <td>Letter of appreciation </td>
+                </tr>
+                <tr>
+                 
+                  <td>Goodies </td>
+                </tr>
+                <tr>
+                  
+                  <td>One free event </td>
+                </tr>
+                <tr>
+                  
+                  <td>Accommodation concession* </td>
+                </tr>
+               
               </table>
               *Terms and Conditions Apply
               <br />
