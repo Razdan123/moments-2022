@@ -41,6 +41,9 @@ const Links = [{
 },{
   label: 'Guest Lectures',
   path: '/guestlectures'
+},{
+  label: 'Campus Ambassador',
+  path: '/ca'
 }
 ];
 

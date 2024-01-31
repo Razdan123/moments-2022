@@ -24,6 +24,7 @@ import {
 import banner from '../assets/images/banner.png';
 import Navbar from '../components/nav';
 import Footer from '../components/footer';
+import Comingsoongl from '../components/gl-comingsoon'
 
 const gl1 = [
   "Moments '23 is all set to bring you some of the best guest lectures across the globe. To kick off this year's Moments, we have Professor Peter Collin from Luleå University of Technology all the way from Sweden to deliver an exemplary lecture on 'Efficient bridge construction'. Join us live on 23rd January at 1:30 pm."
@@ -44,20 +45,26 @@ function Guestlecture() {
         backgroundPosition={'center'}
         back
       ></Flex>
+      <Center>
+          <Comingsoongl />
+      </Center>
 
       <SimpleGrid
         columns={{ base: 1, md: 2, lg: 4 }}
         spacing={{ base: 10, md: 15 }}
         p={50}
       >
-        <GLCard
+        {/* <GLCard
           title="Dr. Peter Collin Guest Lecture"
           description="Moments '23 is all set to bring you some of the best guest lectures across the globe. To kick off this year's Moments, we have Professor Peter Collin from Luleå University of Technology all the way from Sweden to deliver an exemplary lecture on Efficient bridge construction. Join us live on 23rd January at 1:30 pm."
           rules={gl1}
           url="https://i.imgur.com/U0IA78y.png"
           registerLink="https://forms.gle/wj739jH1DJzfmgGP8"
           tag="Guest Lecture"
-        />
+        /> */}
+        
+        
+        
       </SimpleGrid>
 
       <Footer />

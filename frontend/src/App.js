@@ -3,6 +3,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import '@fontsource/plus-jakarta-sans';
 import Home from './pages/home';
 import Events from './pages/events';
+import CampusAmb from './pages/campus-amb.jsx';
 import Workshop from './pages/workshop';
 import Guestlecture from './pages/gl';
 import Navbar from './components/nav';
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/events" element={<Events />} />
           <Route exact path="/workshop" element={<Workshop />} />
           <Route exact path="/guestlectures" element={<Guestlecture />} />
+          <Route exact path="/ca" element={<CampusAmb />} />
         </Routes>
       </Router>
     </ChakraProvider>

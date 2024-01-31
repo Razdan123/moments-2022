@@ -50,7 +50,7 @@ export default function Members() {
     
     >
 <Center spacing={10} mb={25}>
-<Text fontSize={{base:'2xl',md:'5xl'}} color={'accent'} >MOMENTS CORE</Text><Text ml={'0.7em'} fontSize={{base:'2xl',md:'5xl'}}>22-23</Text>
+<Text fontSize={{base:'2xl',md:'5xl'}} color={'accent'} >MOMENTS CORE</Text><Text ml={'0.7em'} fontSize={{base:'2xl',md:'5xl'}}>23-24</Text>
 </Center>
 
       <SimpleGrid columns={{ base: 1, md: 2, lg:2}} spacing={{base:5,md:5}} p={100} pb={8} pt={25}  >
