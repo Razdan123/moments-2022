@@ -514,7 +514,7 @@ function CAmb() {
             colorScheme="blue"
             m={3}
             onClick={() => {
-              window.location.assign('https://forms.gle/62BBDXtCck7RFppQ9');
+              window.location.assign('https://unstop.com/p/moments-campus-ambassador-program-moments-civil-engineering-association-nit-trichy-885561');
             }}
           >
             Register Now{' '}

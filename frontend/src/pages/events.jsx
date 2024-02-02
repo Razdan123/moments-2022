@@ -24,6 +24,7 @@ import {
 import banner from '../assets/images/banner.png';
 import Navbar from '../components/nav';
 import Footer from '../components/footer';
+import ComingSoon from '../components/events-comingsoon';
 
 function Events() {
   return (
@@ -39,7 +40,7 @@ function Events() {
         back
       ></Flex>
 
-        <Center as="section" w="100%">
+        {/* <Center as="section" w="100%">
           <Stack
             w="50%"
             rounded="md"
@@ -60,14 +61,20 @@ function Events() {
             <a href="https://drive.google.com/file/d/14T-XttWsAYpKWd9PAe50AqKad_9agVBW/view?usp=sharing"> <b> Click here</b></a>
             </Text>
           </Stack>
-        </Center>
+        </Center> */}
+
+      <Center>
+          <ComingSoon />
+      </Center>
+
+
 
       <SimpleGrid
         columns={{ base: 1, md: 2, lg: 4 }}
         spacing={{ base: 10, md: 15 }}
         p={50}
       >
-        <Event0 />
+        {/* <Event0 /> */}
         {/* <Event1 />
         <Event2 />
         <Event3 />
