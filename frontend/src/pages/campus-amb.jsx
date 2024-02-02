@@ -67,7 +67,7 @@ function CAmb() {
                 MOMENTS
               </Text>
             </Center>
-            <Text color={'gray.600'}>
+            <Text >
               Moments is the national level technical symposium of the department
               of civil engineering, NIT Trichy. Since its inception in 1992,
               MOMENTS, NIT Trichy has been running with a single aim: To
@@ -98,7 +98,7 @@ function CAmb() {
               <p class="blue-sentence">What is the </p>
               <p class="black-sentence">MOMENTS Campus Ambassador Programme?</p>
             </div>
-            <Text color={'gray.600'}>
+            <Text >
               The MOMENTS Campus Ambassador Programme is a strategic initiative
               aimed at engaging enthusiastic and driven students from various
               educational institutions to join and collaborate with us. As
@@ -134,7 +134,7 @@ function CAmb() {
               <p class="blue-sentence">Why should you be the </p>
               <p class="black-sentence">Campus Ambassador for MOMENTS?</p>
             </div>
-            <Text color={'gray.600'}>
+            <Text >
               <ul>
                 <li>
                   Boost your leadership, communication, and marketing abilities.
@@ -170,7 +170,7 @@ function CAmb() {
               <p class="blue-sentence">What are the responsibilities of the </p>
               <p class="black-sentence">MOMENTS Campus Ambassador?</p>
             </div>
-            <Text color={'gray.600'}>
+            <Text >
               The responsibilities of MCA include but are not limited to:
               <ul>
                 <li>Serve as a bridge between your campus and MOMENTS. </li>
@@ -213,7 +213,7 @@ function CAmb() {
               </Text>{' '}
               <Text ml={'0.5rem'} fontSize={'3xl'}></Text>
             </Center>
-            <Text color={'gray.600'}>
+            <Text >
               Let's explore what awaits you:
               <ul>
                 <li>Certificate of Recognition to all campus ambassadors</li>
@@ -250,7 +250,7 @@ function CAmb() {
               </Text>{' '}
               <Text ml={'0.5rem'} fontSize={'4xl'}></Text>
             </Center>
-            <Text color={'gray.600'} id="center">
+            <Text  id="center">
               Below is the table outlining the corresponding points for each task,
               helping you track your progress as you embark on your journey as a
               Campus Ambassador!
@@ -298,7 +298,7 @@ function CAmb() {
                 TIERS
               </Text>
             </Center>
-            <Text color={'gray.600'} id="tab-center-1">
+            <Text  id="tab-center-1">
               Hey, top performing Campus Ambassadors, get ready for a sneak peek
               into the exciting offering we have lined up for you based on your
               score:
@@ -370,7 +370,7 @@ function CAmb() {
               </b>{' '}
             </Text>
 
-            <Text color={'gray.600'} id="tab-center-2">
+            <Text  id="tab-center-2">
               Hey, top performing Campus Ambassadors, get ready for a sneak peek
               into the exciting offering we have lined up for you based on your
               score:

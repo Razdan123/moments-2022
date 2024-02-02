@@ -48,7 +48,7 @@ export default function About() {
                 CEA
               </Text>
             </Center>
-            <Text color={'gray.600'}>
+            <Text >
               CEA is the association of future planners, constructors and
               like-minded designers from the department of Civil Engineering at
               National Institute of Technology, Tiruchirapalli which was
@@ -85,7 +85,7 @@ export default function About() {
                 US
               </Text>
             </Center>
-            <Text color={'gray.600'}>
+            <Text >
               Moments is the national level technical symposium of the
               department of civil engineering, NIT Trichy. Since its inception
               in 1992, MOMENTS, NIT Trichy has been running with a single aim:
