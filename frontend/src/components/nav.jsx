@@ -56,7 +56,7 @@ const NavLink = ({ children,current }) => (
     py={1}
     rounded={'md'}
     fontWeight={current===children.path?'900':'400'} 
-    color={current===children.path?'accent':'gray.100'}
+    color={current===children.path?'#32de84':'gray.100'}
     _hover={{
       textDecoration: 'none',
       color: 'gray.300',
@@ -169,7 +169,7 @@ const DesktopNav = () => {
             fontSize={'sm'}
             fontWeight={600}
             color={'white'}
-            bg={'accent'}
+            bg={'#32de84'}
             width={'9em'}
             borderRadius={'4px'}
             

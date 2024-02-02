@@ -95,7 +95,7 @@ function CAmb() {
           >
             
             <div class="container">
-              <p class="blue-sentence">What is the </p>
+              <p class="green-sentence" >What is the </p>
               <p class="black-sentence">MOMENTS Campus Ambassador Programme?</p>
             </div>
             <Text >
@@ -131,7 +131,7 @@ function CAmb() {
           >
             
             <div class="container">
-              <p class="blue-sentence">Why should you be the </p>
+              <p class="green-sentence">Why should you be the </p>
               <p class="black-sentence">Campus Ambassador for MOMENTS?</p>
             </div>
             <Text >
@@ -167,7 +167,7 @@ function CAmb() {
             spacing={4}
           >
             <div class="container">
-              <p class="blue-sentence">What are the responsibilities of the </p>
+              <p class="green-sentence">What are the responsibilities of the </p>
               <p class="black-sentence">MOMENTS Campus Ambassador?</p>
             </div>
             <Text >
@@ -261,19 +261,19 @@ function CAmb() {
                 </tr>
                 <tr>
                   <td>Event Registration</td>
-                  <td>20 points per registration</td>
+                  <td><strong>20</strong> points per registration</td>
                 </tr>
                 <tr>
                   <td>Workshop Registration</td>
-                  <td>0 points per registration</td>
+                  <td><strong>25</strong> points per registration</td>
                 </tr>
                 <tr>
                   <td>Early bird workshop registration </td>
-                  <td>+10 points per registration (additional points)</td>
+                  <td><strong>+10</strong> points per registration (additional points)</td>
                 </tr>
                 <tr>
                   <td>Early bird event registration</td>
-                  <td>+05 points per registration (additional points)</td>
+                  <td><strong>+05</strong> points per registration (additional points)</td>
                 </tr>
               </table>{' '}
             </Text>

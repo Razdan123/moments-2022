@@ -10,7 +10,7 @@ const theme = extendTheme({
     
   },
   colors: {
-    accent: '#316BFF',
+    accent: '#32de84',
   },
   
 });

@@ -16,6 +16,14 @@ table, th, td {
     margin-top: 0;
     display: inline;
   }
+
+  .green-sentence {
+    color: #32de84;
+    font-size: 2rem;
+    margin-top: 0;
+    display: inline;
+  }
+
   #tab-center-2{
     display: none;
   }

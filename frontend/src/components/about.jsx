@@ -41,7 +41,7 @@ export default function About() {
             spacing={4}
           >
             <Center spacing={10} mb={25}>
-              <Text fontSize={'4xl'} color={'accent'}>
+              <Text fontSize={'4xl'} color={'#32de84'}>
                 Civil Engineering Association
               </Text>{' '}
               <Text ml={'0.5rem'} fontSize={'4xl'}>
@@ -78,7 +78,7 @@ export default function About() {
             spacing={4}
           >
             <Center spacing={10} mb={25}>
-              <Text fontSize={'4xl'} color={'accent'}>
+              <Text fontSize={'4xl'} color={'#32de84'}>
                 ABOUT{' '}
               </Text>{' '}
               <Text ml={'0.5rem'} fontSize={'4xl'}>
@@ -116,7 +116,7 @@ export default function About() {
             >
               <Box mb={{ base: 8, md: 20 }}>
                 <HStack>
-                  <Text color={'accent'} fontSize={{ base: '3xl', md: '5xl' }}>
+                  <Text color={'#32de84'} fontSize={{ base: '3xl', md: '5xl' }}>
                     Moments ‘24{' '}
                   </Text>
                 </HStack>
@@ -159,7 +159,7 @@ export default function About() {
                 zIndex={1}
                 _hover={{
                 textDecoration: 'none',
-                bg: useColorModeValue('accent','accent'),
+                bg: useColorModeValue('#32de84','#32de84'),
                 color:'white'
               }}
 

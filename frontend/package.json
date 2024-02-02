@@ -1,5 +1,6 @@
 {
   "name": "moments-app",
+  "homepage": "https://momentsnitt.000webhostapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -32,7 +32,7 @@ const Feature = ({ title, text, icon }) => {
         {icon}
       </Flex>
       <HStack spacing={1}>
-      <Text m={0} p={0} fontWeight={400} color={'accent'} fontSize={13}>{title.split(' ')[0]}</Text>
+      <Text m={0} p={0} fontWeight={400} color={'#32de84'} fontSize={13}>{title.split(' ')[0]}</Text>
       <Text  m={0} p={0} fontWeight={400} fontSize={13}>{title.split(' ').reverse().slice( 0,-1).reverse().join(' ')}</Text>
       </HStack>
       <Text color={'gray.600'}fontSize={10} mt={0}>{text}</Text>
@@ -50,7 +50,7 @@ export default function Members() {
     
     >
 <Center spacing={10} mb={25}>
-<Text fontSize={{base:'2xl',md:'5xl'}} color={'accent'} >MOMENTS CORE</Text><Text ml={'0.7em'} fontSize={{base:'2xl',md:'5xl'}}>23-24</Text>
+<Text fontSize={{base:'2xl',md:'5xl'}} color={'#32de84'} >MOMENTS CORE</Text><Text ml={'0.7em'} fontSize={{base:'2xl',md:'5xl'}}>23-24</Text>
 </Center>
 
       <SimpleGrid columns={{ base: 1, md: 2, lg:2}} spacing={{base:5,md:5}} p={100} pb={8} pt={25}  >
