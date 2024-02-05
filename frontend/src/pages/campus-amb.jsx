@@ -92,18 +92,19 @@ function CAmb() {
             m={30}
             p={6}
             spacing={4}
+
           >
-            
             <div class="container" >
               <p class="green-sentence" >What is the </p>
               <p class="black-sentence">MOMENTS Campus Ambassador Programme?</p>
             </div>
-            <Text textAlign="center" >
+            <Text>
               The MOMENTS Campus Ambassador Programme is a strategic initiative
               aimed at engaging enthusiastic and driven students from various
               educational institutions to join and collaborate with us. As
               ambassadors, you serve as the face of MOMENTS, promoting its values
               and initiatives within your respective campus communities.
+              <br></br>
               Here, every challenge conquered and reward earned propels you closer
               to mastering your interpersonal soft skills and ascending the
               leaderboard! But hold onto your hats because there's more excitement
