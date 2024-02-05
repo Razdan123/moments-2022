@@ -1,23 +1,23 @@
 export const MEMBERDATA = [
   {
-    name: 'Madhesh Chandrasekar',
+    name: 'Monica',
     position: 'Chairperson',
-    image: 'IMG_20221026_203223 - Madhesh Chandrasekar.jpg',
+    image: 'Monica.png',
   },
   {
-    name: 'Dhinesh Kumar',
+    name: 'Loga',
     position: 'Overall Coordinator',
-    image: 'IMG_20221025_222153 - dhinesh kumar.jpg',
+    image: 'Loga.png',
   },
   {
-    name: 'Haswanth Pattabhi',
+    name: 'Harshith',
     position: 'Treasurer',
-    image: 'IMG_20220716_231537_ - haswanth pattabhi.jpg',
+    image: 'Harshith.png',
   },
   {
-    name: 'Shruthi Ganapathy Rajan',
+    name: 'Sathusikan',
     position: 'General Secretary',
-    image: 'Core_vice chairperson_ G Shruthi Keerthana - Shruthi Ganapathy Rajan.jpg',
+    image: 'Sathu.png',
   },
   {
     name: 'G Shruthi Keerthana',
@@ -260,7 +260,7 @@ export const MEMBERDATA = [
 
 export const profData = [
   {
-    name: 'Dr. S.T.Ramesh',
+    name: 'Dr. K. Muthukkumaran',
     position: 'President',
     image: 'hod.jpg',
   },

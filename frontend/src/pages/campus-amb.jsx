@@ -67,7 +67,7 @@ function CAmb() {
                 MOMENTS
               </Text>
             </Center>
-            <Text >
+            <Text textAlign="center" >
               Moments is the national level technical symposium of the department
               of civil engineering, NIT Trichy. Since its inception in 1992,
               MOMENTS, NIT Trichy has been running with a single aim: To
@@ -94,17 +94,16 @@ function CAmb() {
             spacing={4}
           >
             
-            <div class="container">
+            <div class="container" >
               <p class="green-sentence" >What is the </p>
               <p class="black-sentence">MOMENTS Campus Ambassador Programme?</p>
             </div>
-            <Text >
+            <Text textAlign="center" >
               The MOMENTS Campus Ambassador Programme is a strategic initiative
               aimed at engaging enthusiastic and driven students from various
               educational institutions to join and collaborate with us. As
               ambassadors, you serve as the face of MOMENTS, promoting its values
               and initiatives within your respective campus communities.
-              <br />
               Here, every challenge conquered and reward earned propels you closer
               to mastering your interpersonal soft skills and ascending the
               leaderboard! But hold onto your hats because there's more excitement

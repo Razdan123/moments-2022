@@ -71,22 +71,23 @@ export default function Footer() {
             <Link href={'/workshop'}>Workshops</Link>
             <Link href={'/events'}>Events</Link>
             <Link href={'/guestlectures'}>Guest Lectures</Link>
+            <Link href={'/ca'}>Campus Ambassador</Link>
           </Stack>
 
           <Stack align={'flex-start'}>
             <ListHeader>CONTACTS</ListHeader>
             
-            <Text >Madhesh<Link href={'tel:+918489850850'} color={'accent'} ml={2}>+918489850850</Link></Text>
+            <Text >Monica<Link href={'tel:+919345360289'} color={'accent'} ml={4}>+919345360289</Link></Text>
             
             
             
-            <Text >Dhinesh<Link href={'tel:+917871852977'} color={'accent'} ml={2}>+917871852977</Link></Text>
+            <Text >Harshith<Link href={'tel:+919030999289'} color={'accent'} ml={2}>+919030999289</Link></Text>
             
             
             
-            <Text >Shruthi<Link href={'tel:+919150290371'} color={'accent'} ml={6}>+919150290371</Link></Text>
+            <Text >Loga<Link href={'tel:+919944436755'} color={'accent'} ml={8}>+919944436755</Link></Text>
 
-            <Text >Pattabhi<Link href={'tel:+917036620202'} color={'accent'} ml={6}>+917036620202</Link></Text>
+            <Text >Sathusikan<Link href={'tel:+917200208203'} color={'accent'} ml={2}>+917200208203</Link></Text>
             
             
           </Stack>
