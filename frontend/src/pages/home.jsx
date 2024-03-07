@@ -6,6 +6,8 @@ import {
   Center
 } from '@chakra-ui/react';
 import banner from '../assets/images/banner.png'
+import './home.css';
+import sample from '../assets/videos/1.mp4';
 import Navbar from '../components/nav';
 import About from '../components/about';
 import Members from '../components/members';
@@ -18,34 +20,40 @@ function Home() {
     <Box>
     
       <Navbar />
-      <Flex
+      {/* <Flex
       w={'full'}
       h={{base:'450px', md: '100vh', lg: '100vh'}}
       
       // backgroundColor={'rgba(10, 12, 32, 0.22)'}
-      backgroundImage={banner}
+      backgroundImage={banner2}
       backgroundBlendMode={'overlay'}
       backgroundSize={'cover'}
       backgroundPosition={'center'}
       back
-       >
-      <Center width={'full'}>
-  <Box
-    as="iframe"
-    title="naruto"
-    src="https://www.youtube.com/embed/5jV-naf_vyE"
-    allowFullScreen
-    width="600px"
-    height="320px"
-    borderRadius={20}
-    boxShadow='md'
-    mx={5}
-  />
-
-      </Center>
+       > */}
+      {/* <div className="background-video"> */}
+        <video className='videoTag' autoPlay loop muted >
+          <source src={sample} type='video/mp4' />
+        </video>
+      
+       
+        {/* <Center width={'full'} className='content'>
+          <Box
+            as="iframe"
+            title="naruto"
+            src="https://www.youtube.com/embed/5jV-naf_vyE"
+            allowFullScreen
+            width="600px"
+            height="320px"
+            borderRadius={20}
+            boxShadow='md'
+            mx={5}
+          />
+        </Center> */}
+      {/* </div> */}
 
       
-      </Flex>
+      {/* </Flex> */}
       <About/>
           <Members/>
       <Footer/>

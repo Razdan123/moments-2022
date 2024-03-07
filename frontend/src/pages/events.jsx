@@ -25,7 +25,10 @@ import banner from '../assets/images/banner.png';
 import Navbar from '../components/nav';
 import Footer from '../components/footer';
 import ComingSoon from '../components/events-comingsoon';
-
+import Civilage from '../assets/images/Event_images/civilage.jpeg'
+import Techvision from '../assets/images/Event_images/Tech_vision.jpeg'
+import Paper from '../assets/images/Event_images/paper_pre.jpeg'
+import GeoCon from '../assets/images/Event_images/geoconfluence.jpeg'
 function Events() {
   return (
     <Box>
@@ -40,7 +43,7 @@ function Events() {
         back
       ></Flex>
 
-        {/* <Center as="section" w="100%">
+        <Center as="section" w="100%">
           <Stack
             w="50%"
             rounded="md"
@@ -58,13 +61,13 @@ function Events() {
               </Text>
             </Center>
             <Text color={'red.600'} align={'center'} fontSize={'2xl'}>
-            <a href="https://drive.google.com/file/d/14T-XttWsAYpKWd9PAe50AqKad_9agVBW/view?usp=sharing"> <b> Click here</b></a>
+            <a href="https://drive.google.com/file/d/1a6Avgr8XsoYCluZkZbeofe96oOaJh1Dx/view?usp=sharing"> <b> Click here</b></a>
             </Text>
           </Stack>
-        </Center> */}
+        </Center>
 
       <Center>
-          <ComingSoon />
+          {/* <ComingSoon /> */}
       </Center>
 
 
@@ -75,11 +78,11 @@ function Events() {
         p={50}
       >
         {/* <Event0 /> */}
-        {/* <Event1 />
+        <Event1 />
         <Event2 />
         <Event3 />
         <Event4 />
-        <Event5 /> */}
+        {/* <Event5 /> */}
         
       </SimpleGrid>
 
@@ -300,13 +303,15 @@ function Event1() {
         </Badge>
         <Text as="h3" my={5} fontWeight="bold" fontSize="2xl" color={'accent'}>
           {' '}
-          BUILD IT{' '}
+          CIVILAGE{' '}
         </Text>{' '}
         <Text>
           {' '}
-          Designing a building from scratch takes a lot of patience.If you are
-          someone who has an eye for perfection, the event "BUILD IT" is for
-          you.{' '}
+          
+          Get Ready for a thrilling showcase of structural prowess!
+          <br></br>
+          Civilage brings the ultimate test for budding engineeers: Electrifying quiz, then sketch your dreamsin <strong>AutoCAD</strong>.
+          {' '}
         </Text>{' '}
         <Center>
           <Button
@@ -323,6 +328,7 @@ function Event1() {
               bg: useColorModeValue('accent', 'accent'),
               color: 'white',
             }}
+            color={'black'}
             onClick={onOpen}
             style={{ position: 'absolute', bottom: '20px' }}
           >
@@ -339,15 +345,15 @@ function Event1() {
         >
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader color={'accent'}> BUILD IT </ModalHeader>{' '}
+            <ModalHeader color={'accent'}> CIVILAGE </ModalHeader>{' '}
             <ModalCloseButton />
             <ModalBody>
               <Center>
                 <a href="https://i.imgur.com/TlULIHZ.png" target="_blank">
                   <Image
                     height="400"
-                    src="https://i.imgur.com/TlULIHZl.png"
-                    alt="BUILD IT"
+                    src={Civilage}
+                    alt="Civilage"
                   />
                 </a>
               </Center>
@@ -357,9 +363,8 @@ function Event1() {
               </Text>{' '}
               <Text as="p" my={5}>
                 {' '}
-                Designing a building from scratch takes a lot of patience.If you
-                are someone who has an eye for perfection, the event "BUILD IT"
-                is for you.{' '}
+                Unleash Your Engineering Genius at Civilage!
+                {' '}
                 <br />
               <br />
               Go check out the rule book for more information.
@@ -432,7 +437,7 @@ function Event1() {
                 colorScheme="blue"
                 m={3}
                 onClick={() => {
-                  window.location.assign('https://forms.gle/62BBDXtCck7RFppQ9');
+                  window.location.assign('https://unstop.com/p/civilage-moments-national-institute-of-technology-tiruchirappalli-918509');
                 }}
               >
                 Register Now{' '}
@@ -463,16 +468,16 @@ function Event2() {
       </Badge>
       <Text as="h3" my={5} fontWeight="bold" fontSize="2xl" color={'accent'}>
         {' '}
-        SAVE A LIFE{' '}
+        TECH VISION{' '}
       </Text>{' '}
       <Text>
         {' '}
-        Road fatalities currently top the list of accidental deaths in India by
-        a significant margin over drowning, fire, rail or air accidents,
-        etc.With more than one reported fatality on Indian roads every three
-        minutes, road safety is a severe problem. To raise awareness among young
-        people and discover solutions to prevent accidents, MOMENTS '23 has
-        organized the event "SAVE A LIFE".{' '}
+        
+        Grab your teammate and dive into the iconic structures quiz!
+        <br></br>
+        Decode mind-bending structures to unveil trhe global landmarks.
+        <br></br>
+        On-spot buzzer action with questions on worldwide wonders-claim victory with quick thinking and stategic buzzing.{' '}
       </Text>{' '}
       <Center>
         <Button
@@ -490,6 +495,7 @@ function Event2() {
             color: 'white',
           }}
           onClick={onOpen}
+          color={'black'}
           style={{ position: 'absolute', bottom: '20px' }}
         >
           View more
@@ -505,15 +511,15 @@ function Event2() {
       >
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader color={'accent'}> SAVE A LIFE </ModalHeader>{' '}
+          <ModalHeader color={'accent'}> TECH VISION </ModalHeader>{' '}
           <ModalCloseButton />
           <ModalBody>
             <Center>
-              <a href="https://i.imgur.com/bRibY4t.jpeg" target="_blank">
+              <a href={Techvision} target="_blank">
                 <Image
                   height="400"
-                  src="https://i.imgur.com/bRibY4t.jpeg"
-                  alt="SAVE A LIFE"
+                  src={Techvision}
+                  alt="TECH VISION"
                 />
               </a>
             </Center>
@@ -523,19 +529,12 @@ function Event2() {
             </Text>{' '}
             <Text as="p" my={5}>
               {' '}
-              Road fatalities currently top the list of accidental deaths in
-              India by a significant margin over drowning, fire, rail or air
-              accidents, etc.With more than one reported fatality on Indian
-              roads every three minutes, road safety is a severe problem. To
-              raise awareness among young people and discover solutions to
-              prevent accidents, MOMENTS '23 has organized the event "SAVE A
-              LIFE".{' '}
+              Decode.Buzz.Triumph!
+              {' '}
             </Text>
             <Text as="p" my={5}>
-              By conducting a case study considering the status of TAMIL NADU,
-              young engineering minds need to develop workable ideas.{' '}
-              <br />
-              <br />
+            {' '}
+      
               Go check out the rule book for more information.
             </Text>
             {/* 
@@ -619,7 +618,7 @@ function Event2() {
               colorScheme="blue"
               m={3}
               onClick={() => {
-                window.location.assign('https://forms.gle/XvQJ2Z8Dq4eoCUhR7');
+                window.location.assign('https://unstop.com/p/tech-vision-moments-national-institute-of-technology-tiruchirappalli-918730');
               }}
             >
               Register Now{' '}
@@ -649,16 +648,18 @@ function Event3() {
       </Badge>
       <Text as="h3" my={5} fontWeight="bold" fontSize="2xl" color={'accent'}>
         {' '}
-        TECH VISION{' '}
+        PAPER PRESENTATION{' '}
       </Text>{' '}
       <Text>
         {' '}
-        Exploring the various civil marvels across the globe, right from the
-        classic Golden Gate Bridge in San Francisco to the petrifying Museum of
-        the Future in Dubai, is what fascinates you ? Then what are you waiting
-        for ? This is your moment to register for 'Tech Vision', the most
-        awaited civil wonders quiz exclusively presented by Moments '23 and earn
-        amazing cash prizes with exciting learning experiences!{' '}
+        The MOMENT'S challenges you to be a problem-solving ninja!
+
+        <br></br>
+        Think you got the brains?
+        <br></br>
+        Round 1: Abstract submission (300 words max)
+        <br></br>
+        Round 2: Presentations & Q&A with judges{' '}
       </Text>{' '}
       <Center>
         <Button
@@ -676,6 +677,7 @@ function Event3() {
             color: 'white',
           }}
           onClick={onOpen}
+          color={'black'}
           style={{ position: 'absolute', bottom: '20px' }}
         >
           View more
@@ -691,15 +693,15 @@ function Event3() {
       >
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader color={'accent'}> TECH VISION </ModalHeader>{' '}
+          <ModalHeader color={'accent'}> Paper Presentation </ModalHeader>{' '}
           <ModalCloseButton />
           <ModalBody>
             <Center>
-              <a href="https://i.imgur.com/xVmjt4W.png" target="_blank">
+              <a href={Paper} target="_blank">
                 <Image
                   height="400"
-                  src="https://i.imgur.com/xVmjt4Wh.png"
-                  alt="TECH VISION"
+                  src={Paper}
+                  alt="Paper Presentation"
                 />
               </a>{' '}
             </Center>
@@ -709,13 +711,8 @@ function Event3() {
             </Text>{' '}
             <Text as="p" my={5}>
               {' '}
-              Exploring the various civil marvels across the globe, right from
-              the classic Golden Gate Bridge in San Francisco to the petrifying
-              Museum of the Future in Dubai, is what fascinates you ? Then what
-              are you waiting for ? This is your moment to register for 'Tech
-              Vision', the most awaited civil wonders quiz exclusively presented
-              by Moments '23 and earn amazing cash prizes with exciting learning
-              experiences!{' '}
+              Ignite your mind and solve real world problems!
+              {' '}
               <br />
               <br />
               Go check out the rule book for more information.
@@ -746,7 +743,7 @@ function Event3() {
               colorScheme="blue"
               m={3}
               onClick={() => {
-                window.location.assign('https://forms.gle/ncw3wWKk8nAiww2aA');
+                window.location.assign('https://unstop.com/p/paper-presentation-moments-national-institute-of-technology-tiruchirappalli-918788');
               }}
             >
               Register Now{' '}
@@ -776,14 +773,14 @@ function Event4() {
       </Badge>
       <Text as="h3" my={5} fontWeight="bold" color={'accent'} fontSize="2xl">
         {' '}
-        ROAD TO ZERO EMISSION{' '}
+        GEO CONFLUENCE{' '}
       </Text>{' '}
       <Text>
         {' '}
-        Do you always think that you could provide the most suitable solutions
-        for the ever - increasing emission of pollutants ? Fret not.Moments '23
-        is delighted to present a platform for you to showcase your problem
-        solving skills in the event ' Road to Zero Emission '.{' '}
+        Address geotechnical challenge. Highlight risks in foundation design, groundwater management, and soil-stucture interaction.
+        <br></br>
+        Propose innovative engineering solutions for sustainabble urban growth. 
+        {' '}
       </Text>{' '}
       <Center>
         <Button
@@ -801,6 +798,7 @@ function Event4() {
             color: 'white',
           }}
           onClick={onOpen}
+          color={'black'}
           style={{ position: 'absolute', bottom: '20px' }}
         >
           View more
@@ -816,15 +814,15 @@ function Event4() {
       >
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader color={'accent'}> ROAD TO ZERO EMISSION </ModalHeader>{' '}
+          <ModalHeader color={'accent'}> GEO CONFLUENCE </ModalHeader>{' '}
           <ModalCloseButton />
           <ModalBody>
             <Center>
-              <a href="https://i.imgur.com/EXWh0Iu.png" target="_blank">
+              <a href={GeoCon} target="_blank">
                 <Image
                   height="400"
-                  src="https://i.imgur.com/EXWh0Iuh.png"
-                  alt="ROAD TO ZERO EMISSION"
+                  src={GeoCon}
+                  alt="Geo Confluence"
                 />
               </a>{' '}
             </Center>
@@ -834,11 +832,7 @@ function Event4() {
             </Text>{' '}
             <Text as="p" my={5}>
               {' '}
-              Do you always think that you could provide the most suitable
-              solutions for the ever - increasing emission of pollutants ? Fret
-              not. Moments '23 is delighted to present a platform for you to
-              showcase your problem solving skills in the event ' Road to Zero
-              Emission '.{' '}
+              Bridging Geo Challenges!{' '}
               <br />
               <br />
               Go check out the rule book for more information.
@@ -874,7 +868,7 @@ function Event4() {
               colorScheme="blue"
               m={3}
               onClick={() => {
-                window.location.assign('https://forms.gle/EckZP3F6ESYG4KXG8');
+                window.location.assign('https://unstop.com/p/geo-confluence-moments-national-institute-of-technology-tiruchirappalli-918886');
               }}
             >
               Register Now{' '}
