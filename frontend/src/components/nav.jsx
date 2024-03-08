@@ -141,7 +141,7 @@ const DesktopNav = () => {
       <Box zIndex={12} bg={' rgba(10, 12, 32, 0.45)'} px={4} position={'fixed'} width={'100%'} display={{ base: 'none', md: 'block' }}> 
         <Flex h={83} alignItems={'center'} justifyContent={'space-between'}>
         
-          <Box mt={4}><Stack direction={'row'} spacing={1} alignItems={'center'}><Image src={nittLogo} mt={-3} boxSize={59}/> <Image src={logo} boxSize={180} /> <Image src={momentsLogo} boxSize={90} /></Stack></Box>
+          <Box mt={4}><Stack direction={'row'} spacing={1} alignItems={'center'}><Image src={nittLogo} mt={-3} boxSize={69}/> <Image src={logo} boxSize={180} /> <Image src={momentsLogo} boxSize={85} style={{ marginBottom: '8px' }} /></Stack></Box>
           <Stack direction={'row'} alignItems={'center'}>
           
          
@@ -149,8 +149,10 @@ const DesktopNav = () => {
           
             <HStack
               as={'nav'}
-              spacing={9}
-              display={{ base: 'none', md: 'flex' }}>
+              spacing={2}
+              
+              display={{ base: 'none', md: 'flex' }}
+              style={{ marginRight: '-250px' }}>
               {Links.map((link) => (
                 <NavLink key={link.path} current={location.pathname}>{link}</NavLink>
               ))}

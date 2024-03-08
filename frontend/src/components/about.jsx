@@ -48,7 +48,7 @@ export default function About() {
                 CEA
               </Text>
             </Center>
-            <Text >
+            <Text style={{ textAlign: 'justify' }} >
               CEA is the association of future planners, constructors and
               like-minded designers from the department of Civil Engineering at
               National Institute of Technology, Tiruchirapalli which was
@@ -85,7 +85,7 @@ export default function About() {
                 US
               </Text>
             </Center>
-            <Text >
+            <Text style={{ textAlign: 'justify' }}>
               Moments is the national level technical symposium of the
               department of civil engineering, NIT Trichy. Since its inception
               in 1992, MOMENTS, NIT Trichy has been running with a single aim:
@@ -97,9 +97,49 @@ export default function About() {
             </Text>
           </Stack>
         </Center>
+
+
+        <Center as="section" w="100%">
+          <Stack
+            w="100%"
+            rounded="md"
+            borderWidth={1}
+            bg={bg}
+            zIndex={2}
+            boxShadow={'md'}
+            borderRadius={20}
+            m={30}
+            p={6}
+            spacing={4}
+          >
+            <Center spacing={10} mb={25}>
+              <Text fontSize={'4xl'} color={'#32de84'}>
+              Moments {' '}
+              </Text>{' '}
+              <Text ml={'0.5rem'} fontSize={'4xl'}>
+              ‘24
+              </Text>
+            </Center>
+            <Text style={{ textAlign: 'justify' }}>
+                  Moments helps students in building practical applications knowledge by educating them on industry-level research and
+                  developments. Entirely run by students, this organization
+                  maintains a good role in developing creative and management
+                  skills in students while maintaining excellent team spirit.”
+                  We at Team Moments have handpicked a plethora of insightful
+                  guest lectures, inventive workshops and challenging events
+                  uniquely customized for every interested student. This
+                  completely offline edition of Moments promises a fun learning
+                  experience to everyone attending our symposium. This year,
+                  Moments is all set to explore a whole new spectrum of the
+                  latest technology and engineering with the theme <strong>"Verte Costruzione"</strong>. It
+                  aims to provide a platform for budding engineers to showcase
+                  their prowess and skills.{' '}
+            </Text>
+          </Stack>
+        </Center> 
       </Stack>
 
-      <Box position={'relative'}>
+      {/* <Box position={'relative'}>
         <Container maxW={'7xl'} zIndex={10} position={'relative'} pt={2}>
           <Image
             src={circle}
@@ -120,12 +160,8 @@ export default function About() {
                     Moments ‘24{' '}
                   </Text>
                 </HStack>
-                {/* <Text fontSize={{ base: '3xl', md: '5xl' }}>is</Text>
-                </HStack>
-                <Text mb={5} fontSize={{ base: '3xl', md: '5xl' }}>
-                  the annual symposium
-                </Text> */}
-                <Text fontSize={'xl'}>
+               
+                <Text fontSize={'xl'} style={{ textAlign: 'justify' }}>
                   Moments helps students in building practical applications knowledge by educating them on industry-level research and
                   developments. Entirely run by students, this organization
                   maintains a good role in developing creative and management
@@ -141,37 +177,12 @@ export default function About() {
                   their prowess and skills.
                 </Text>
 
-                {/* <Text fontSize={'xl'}>
-                  This year, Moments is all set to explore a whole new spectrum
-                  of the latest technology and engineering with the theme
-                  "Aedificium". It aims to provide a platform for budding
-                  engineers to showcase their prowess and skills.
-                </Text> */}
-
-                {/* <Button
-              mt={15}
-                size='md'
-                height='48px'
-                width='200px'
-                border='1px'
-                borderColor='#C0C1D1'
-                borderRadius={4}
-                zIndex={1}
-                _hover={{
-                textDecoration: 'none',
-                bg: useColorModeValue('#32de84','#32de84'),
-                color:'white'
-              }}
-
-              >
-                Register Now
-              </Button> */}
               </Box>
             </Stack>
             <Flex flex={1} />
           </Stack>
         </Container>
-      </Box>
+      </Box> */}
     </Box>
   );
 }

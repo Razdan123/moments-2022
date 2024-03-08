@@ -63,9 +63,9 @@ export default function Footer() {
       bg={useColorModeValue('white', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}>
       <Container as={Stack} maxW={'8xl'} py={10}>
-        <SimpleGrid columns={{ base: 1, sm: 1, md: 5 }} spacing={10}>
+        <SimpleGrid columns={{ base: 1, sm: 1, md: 5 }} spacing={50}>
           <Stack align={'flex-start'}>
-            <ListHeader>PAGES</ListHeader>
+            <ListHeader><strong>PAGES</strong></ListHeader>
             <Link href={'/home'}>Home</Link>
             {/* <Link href={'/about'}>About</Link> */}
             <Link href={'/workshop'}>Workshops</Link>
@@ -75,26 +75,26 @@ export default function Footer() {
           </Stack>
 
           <Stack align={'flex-start'}>
-            <ListHeader>CONTACTS</ListHeader>
+            <ListHeader><strong>CONTACTS</strong></ListHeader>
             
-            <Text >Monica<Link href={'tel:+919345360289'} color={'accent'} ml={4}>+919345360289</Link></Text>
-            
-            
-            
-            <Text >Harshith<Link href={'tel:+919030999289'} color={'accent'} ml={2}>+919030999289</Link></Text>
+            <Text >Monica<Link href={'tel:+919345360289'} color={'accent'} ml={8}>+919345360289</Link></Text>
             
             
             
-            <Text >Loga<Link href={'tel:+919944436755'} color={'accent'} ml={8}>+919944436755</Link></Text>
+            <Text >Harshith<Link href={'tel:+919030999289'} color={'accent'} ml={6}>+919030999289</Link></Text>
+            
+            
+            
+            <Text >Loga<Link href={'tel:+919944436755'} color={'accent'} ml={12}>+919944436755</Link></Text>
 
-            <Text >Sathusikan<Link href={'tel:+917200208203'} color={'accent'} ml={2}>+917200208203</Link></Text>
+            <Text >Sathusikan<Link href={'tel:+917200208203'} color={'accent'} ml={1}>+917200208203</Link></Text>
             
             
           </Stack>
 
 
           <Stack align={'flex-start'}>
-            <ListHeader >FOLLOW US ON</ListHeader>
+            <ListHeader ><strong>FOLLOW US ON</strong></ListHeader>
             <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Facebook'} href={'https://www.facebook.com/momentsnittrichy/'} >
               <FaFacebook />
@@ -143,7 +143,7 @@ export default function Footer() {
 {/*           
           <Text >MOMENTS </Text> */}
           </Stack>
-          <Text alignContents={'right'}>Official website for Moments, the national level technical symposium of the Department of Civil Engineering, NIT Trichy</Text>
+          <Text alignContents={'right'}>Official website for Moments'24, the national level technical symposium of the Department of Civil Engineering, NIT Trichy</Text>
           </Container>
       </Box>
     </Box>

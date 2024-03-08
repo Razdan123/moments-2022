@@ -265,8 +265,8 @@ export const profData = [
     image: 'hod.jpg',
   },
   {
-    name: 'Dr. Jeevan Joseph',
+    name: 'Dr. V. Sunitha',
     position: 'Faculty Advisor',
-    image: 'faculty.jpg',
+    image: 'Sunitha_mam.jpg',
   },
 ];

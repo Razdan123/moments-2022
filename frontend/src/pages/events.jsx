@@ -305,20 +305,19 @@ function Event1() {
           {' '}
           CIVILAGE{' '}
         </Text>{' '}
-        <Text>
-          {' '}
+        <Text style={{ textAlign: 'justify' }}> 
+          {/* {' '} */}
           
-          Get Ready for a thrilling showcase of structural prowess!
-          <br></br>
-          Civilage brings the ultimate test for budding engineeers: Electrifying quiz, then sketch your dreamsin <strong>AutoCAD</strong>.
-          {' '}
-        </Text>{' '}
+          Get Ready for a thrilling showcase of structural prowess!<br></br> Civilage brings the ultimate test for budding engineeers: Electrifying quiz, then sketch your dreamsin <strong>AutoCAD</strong>.
+          {/* {' '} */}
+        </Text>
+        {/* {' '} */}
         <Center>
           <Button
             mt={25}
             size="md"
             height="40px"
-            width="100px"
+            width="130px"
             border="1px"
             borderColor="#C0C1D1"
             borderRadius={4}
@@ -470,7 +469,7 @@ function Event2() {
         {' '}
         TECH VISION{' '}
       </Text>{' '}
-      <Text>
+      <Text style={{ textAlign: 'justify' }}>
         {' '}
         
         Grab your teammate and dive into the iconic structures quiz!
@@ -484,7 +483,7 @@ function Event2() {
           mt={25}
           size="md"
           height="40px"
-          width="100px"
+          width="130px"
           border="1px"
           borderColor="#C0C1D1"
           borderRadius={4}
@@ -650,23 +649,23 @@ function Event3() {
         {' '}
         PAPER PRESENTATION{' '}
       </Text>{' '}
-      <Text>
+      <Text style={{ textAlign: 'justify' }}>
         {' '}
         The MOMENT'S challenges you to be a problem-solving ninja!
 
         <br></br>
         Think you got the brains?
         <br></br>
-        Round 1: Abstract submission (300 words max)
+        <strong>Round 1</strong>: Abstract submission (300 words max)
         <br></br>
-        Round 2: Presentations & Q&A with judges{' '}
+        <strong>Round 2</strong>: Presentations & Q&A with judges{' '}
       </Text>{' '}
       <Center>
         <Button
           mt={25}
           size="md"
           height="40px"
-          width="100px"
+          width="130px"
           border="1px"
           borderColor="#C0C1D1"
           borderRadius={4}
@@ -775,11 +774,11 @@ function Event4() {
         {' '}
         GEO CONFLUENCE{' '}
       </Text>{' '}
-      <Text>
+      <Text style={{ textAlign: 'justify' }}>
         {' '}
         Address geotechnical challenge. Highlight risks in foundation design, groundwater management, and soil-stucture interaction.
         <br></br>
-        Propose innovative engineering solutions for sustainabble urban growth. 
+        Propose innovative engineering solutions for sustainable urban growth. 
         {' '}
       </Text>{' '}
       <Center>
@@ -787,7 +786,7 @@ function Event4() {
           mt={25}
           size="md"
           height="40px"
-          width="100px"
+          width="130px"
           border="1px"
           borderColor="#C0C1D1"
           borderRadius={4}
