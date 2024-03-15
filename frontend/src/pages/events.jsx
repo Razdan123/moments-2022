@@ -27,8 +27,8 @@ import Footer from '../components/footer';
 import ComingSoon from '../components/events-comingsoon';
 import Civilage from '../assets/images/Event_images/civilage.jpeg'
 import Techvision from '../assets/images/Event_images/Tech_vision.jpeg'
-import Paper from '../assets/images/Event_images/paper_pre.jpeg'
-import GeoCon from '../assets/images/Event_images/geoconfluence.jpeg'
+import Paper from '../assets/images/Event_images/PAPER_PRESENTATION.png'
+import GeoCon from '../assets/images/Event_images/GEO_Confluence.png'
 function Events() {
   return (
     <Box>
