@@ -36,19 +36,28 @@ import Footer from '../components/footer';
 import Comingsoon from '../components/comingsoon';
 
 const workshop1 = [
-  'Getting exposed to real-world challenges is a primary need for attaining the practical approach. One of the best tools for getting exposed to many practical challenges of the construction industry is Building Information Modeling (BIM).',
-  'To know more about BIM and to enhance your analysing skills,  do register for the BIM(Building Information Modelling) workshop and join us live on 4th February at 10 AM.',
-  'Registration fee: ₹200',
-  'Date & Time : 4th Feb 10 AM to 12:30 PM',
-  'Check out the workshop description for more information.',
+  'Worried about industry skills to add in your resume? MOMENTS’24 Workshops got you covered!!! This is your chance to impress potential employers, boost your project speed, and become an indispensable asset in the field.',
+  'Imagine revolutionising your civil engineering workflow with the power of Tekla at your fingertips! This exclusive workshop is not just about learning industry-leading BIM software - it is about taking your skills to the next level and gaining a serious edge in the job market.',
+  'Experienced instructors will guide you through creating 3D models, collaborating seamlessly on projects, and automating tasks for ultimate efficiency. Do not miss this opportunity to unlock your full potential as a civil engineer. ',
+  'Date & Time : 31th March 9:00 AM to 12:00 PM',
+  'Venue: Third Eye',
+  'Taken By: Mr. Ganesh S Sundaram (Project Engineer Esskay Structures)',
+  'Registration Fee: ₹250',
+  'Limited seats available, Register now! ',
 ];
 
-// const workshop2 = [
-//   'In this evolving world, technology has advanced in various fields including construction industry. Study of special concrete has become an integral part of construction. Keeping in view, MOMENTS ’23 is elated to announce an offline workshop session about the special and modern concrete, ‘Fundamentals of Fibre Reinforced and Textile Reinforced Concrete’.',
-//   'Registration fee: ₹400',
-//   'Date & Time : 5th Feb 10 AM to 1 PM',
-//   'Check out the workshop description for more information.',
-// ];
+const workshop2 = [
+  
+  'Dive into the realm of structural engineering with SAP2000 workshop on March 29, from 2:30 PM to 5:30 PM, conducted by esteemed Assistant Professor Dr. Mashuda Sultana at Third Eye🏗️',
+  'Explore SAP2000 foundational principles and advanced applications through hands-on sessions, tackling real-world challenges under expert guidance.💡',
+  'Whether you are a seasoned practitioner or an aspiring engineer, this transformative workshop will propel your proficiency in structural analysis and design to new heights. 🚀',
+  'Secure your spot now and unlock your potential in shaping the future of structural engineering! 🌟',
+  'Date & Time : 29th March 2:30 PM to 5:30 PM',
+  'Taken By: Dr. Mashudha Sultana (Assistant Professor, NIT Trichy)',
+  'Venue: Third Eye',
+  'Registration Fee: ₹250',
+  'Limited seats available, Register now! ',
+];
 
 const workshop3 = [
   'Bridges constitute a significant portion of the national economy of a country and serve as a foundation for infrastructure development. As a civil engineer, it is essential to know about the basics of bridge engineering and technology. MOMENTS ’23 presents a workshop session on ‘Overview Of Bridge Engineering and Technology’, where budding engineers will gain deep understanding of modern bridge technology.',
@@ -79,6 +88,8 @@ function Workshop() {
         back
       ></Flex>
 
+
+{/* Description or rulebook thing for workshops */}
 {/* <Center as="section" w="100%">
           <Stack
             w="60%"
@@ -107,9 +118,9 @@ function Workshop() {
 
 
         
-      <Center>
+      {/* <Center>
         <Comingsoon />
-      </Center>
+      </Center> */}
 
 
 
@@ -124,31 +135,32 @@ function Workshop() {
       {/* <Comingsoon /> */}
 
 
-
-
-
-        {/* <WorkshopCard
-          title="BIM(Building Information Modelling)"
-          description="Getting exposed to real-world challenges is a primary need for attaining the practical approach. One of the best tools for getting exposed to many practical challenges of the construction industry is Building Information Modeling (BIM)."
-          tag="4th Feb 10 AM to 12:30 PM"
-          rules={workshop1}
-          url="https://i.imgur.com/LEo1glx.png"
-          registerLink="https://forms.gle/A2WxoECbn1SKCTuq8"
-        /> */}
-
-
-
-
-
-
-        {/* <WorkshopCard
-          title="Fundamentals of Fibre Reinforced and Textile Reinforced Concrete"
-          description="In this evolving world, technology has advanced in various fields including  construction industry. Study of special concrete has become an integral part of construction. Keeping in view, MOMENTS ’23 is elated to announce an offline workshop session about the special and modern concrete, ‘Fundamentals of Fibre Reinforced and Textile Reinforced Concrete’."
-          tag="5th Feb 10 AM to 1 PM"
+      <WorkshopCard
+          title="Hands on workshop on SAP 2000 Software"
+          description="Dive into the realm of structural engineering with SAP2000 workshop on March 29, from 2:30 PM to 5:30 PM, conducted by esteemed Assistant Professor Dr. Mashuda Sultana at Third Eye🏗️"
+          tag="29th March 2:30 PM to 5:30 PM"
           rules={workshop2}
-          url="https://i.imgur.com/Yg4wtgc.png"
-          registerLink="https://forms.gle/A2WxoECbn1SKCTuq8"
-        /> */}
+          // url="https://i.imgur.com/Yg4wtgc.png"
+          registerLink="https://unstop.com/p/hands-on-workshop-of-sap2000-moments-national-institute-of-technology-tiruchirappalli-936177"
+        />
+
+
+        <WorkshopCard
+          title="Hands on workshop on Tekla Software"
+          description="Worried about industry skills to add in your resume?
+          MOMENTS’24 Workshops got you covered!!! This is your chance to impress potential employers, boost your project speed, and become an indispensable asset in the field ."
+          tag="31th March 9:00 AM to 12:00 PM"
+          rules={workshop1}
+          // url="https://i.imgur.com/LEo1glx.png"
+          registerLink="https://unstop.com/p/hands-on-workshop-of-tekla-moments-national-institute-of-technology-tiruchirappalli-936042"
+        />
+
+
+
+
+
+
+        
 
 
 
@@ -175,6 +187,9 @@ function Workshop() {
           registerLink="https://forms.gle/CUvxqvwiLxmYb9pN9"
         /> */}
       </SimpleGrid>
+
+
+
 
       {
         // Code for Site Under construction
@@ -239,7 +254,7 @@ function WorkshopCard({ title, description, rules, tag, url, registerLink }) {
           mt={25}
           size="md"
           height="40px"
-          width="100px"
+          width="120px"
           border="1px"
           borderColor="#C0C1D1"
           borderRadius={4}
@@ -269,9 +284,9 @@ function WorkshopCard({ title, description, rules, tag, url, registerLink }) {
           <ModalHeader>{title}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Center>
+            {/* <Center>
               <Image height="400" src={url} alt={title} />
-            </Center>
+            </Center> */}
 
             <UnorderedList>
               {rules.map((s, i) => {
