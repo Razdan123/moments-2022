@@ -33,6 +33,8 @@ import {
 import banner from '../assets/images/banner.png';
 import Navbar from '../components/nav';
 import Footer from '../components/footer';
+import Tekla from '../assets/images/Workshop_Images_2024/Tekla_software.jpeg'
+import SAP2000 from '../assets/images/Workshop_Images_2024/SAP2000.jpeg'
 import Comingsoon from '../components/comingsoon';
 
 const workshop1 = [
@@ -140,7 +142,7 @@ function Workshop() {
           description="Dive into the realm of structural engineering with SAP2000 workshop on March 29, from 2:30 PM to 5:30 PM, conducted by esteemed Assistant Professor Dr. Mashuda Sultana at Third Eye🏗️"
           tag="29th March 2:30 PM to 5:30 PM"
           rules={workshop2}
-          // url="https://i.imgur.com/Yg4wtgc.png"
+          url={SAP2000}
           registerLink="https://unstop.com/p/hands-on-workshop-of-sap2000-moments-national-institute-of-technology-tiruchirappalli-936177"
         />
 
@@ -151,7 +153,7 @@ function Workshop() {
           MOMENTS’24 Workshops got you covered!!! This is your chance to impress potential employers, boost your project speed, and become an indispensable asset in the field ."
           tag="31th March 9:00 AM to 12:00 PM"
           rules={workshop1}
-          // url="https://i.imgur.com/LEo1glx.png"
+          url={Tekla}
           registerLink="https://unstop.com/p/hands-on-workshop-of-tekla-moments-national-institute-of-technology-tiruchirappalli-936042"
         />
 
@@ -284,9 +286,9 @@ function WorkshopCard({ title, description, rules, tag, url, registerLink }) {
           <ModalHeader>{title}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            {/* <Center>
+            <Center>
               <Image height="400" src={url} alt={title} />
-            </Center> */}
+            </Center>
 
             <UnorderedList>
               {rules.map((s, i) => {
